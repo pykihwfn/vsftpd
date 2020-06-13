@@ -12,7 +12,6 @@ DIRECTORY： 用户限制的目录，默认为/home/ftpuser,如果想限制用�
 
 ------------
 
-
 # create ftp user
 ```bash
 docker exec vsftpd_service bash /usr/sbin/create-user.sh username password directory
@@ -20,4 +19,4 @@ docker exec vsftpd_service bash /usr/sbin/create-user.sh username password direc
 NOTE:
 username: login ftp user name
 password: password
-directory: local_root #example set directory=web1 , user only chroot in /home/ftpuser/web1 directory.
+directory: local_root #example set directory=web1 , user only chroot in /home/ftpuser/web1 directory
