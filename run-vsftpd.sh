@@ -39,7 +39,7 @@ fi
 
 
 
-chown -R ftpuser.ftpuser /home/ftpuser
+#chown -R ftpuser.ftpuser /home/ftpuser
 
 echo $USER >> /etc/vsftpd/user_list
 #add user name into  /etc/vsftpd/user_list file
