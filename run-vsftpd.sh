@@ -16,7 +16,7 @@ fi
 ##############################
 if [ "$MAX_PORT" = "52000" ]
 then
-  MAX_PORT=50000 
+  MAX_PORT=52000 
   # if not defin then MAX_PORT=52000
 fi
 ##############################
